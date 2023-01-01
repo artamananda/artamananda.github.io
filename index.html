@@ -4,52 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <!-- End Font -->
-    <link rel="stylesheet" href="style.css">
-    <!-- add icon link -->
-    <link rel = "icon" href ="img/icon.png" type = "image/x-icon">
-    <title>Staf Magang Only</title>
+    <title>@__test</title>
+    <link rel="icon" type="image/x-icon" href="/hacked.png">
+    <style>
+        body{
+            font-family: monospace;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <div class="content">
-        <div class="titles">
-            BIRO MEDIA, ISU, DAN PERGERAKAN
-        </div>
-        <table>
-            <tr>
-                <td>Nama</td>
-                <td>Artamananda</td>
-                <td class="tbspc" rowspan="6"><img class="foto" src="img/foto-arta.JPG" alt=""></td>
-            </tr>
-            <tr>
-                <td>Jurusan/Fakultas</td>
-                <td>Teknik Informatika/FASILKOM</td>
-            </tr>
-            <tr>
-                <td>No WhatsApp</td>
-                <td>(+62) 852 6786 3397</td>
-            </tr>
-            <tr>
-                <td>Facebook/Instagram</td>
-                <td>Artamananda/@artamananda</td>
-            </tr>
-            <tr>
-                <td>Motto Hidup</td>
-                <td>"Kesampingkan segala ego yang ada dalam diri, mari 
-                    berkolaborasi."</td>
-            </tr>
-            <tr>
-                <td>Tanda Tangan</td>
-                <td><img class="ttd" src="img/ttd-arta.png" alt=""></td>
-            </tr>
-        </table>
-        <div class="ps">
-            PS: *Gambar bisa langsung di-Copas, atau bisa di download dengan cara klik kanan lalu "Save Image as ..."
-        </div>
-    </div>
+    <table style="margin: auto; width: 100%;">
+        <tbody id="xxx"></tbody>
+    </table>
+
+    <script>
+        randomBinary();
+        function randomBinary(){
+            document.getElementById('xxx').innerHTML = "";
+            var l = 100;
+            for (var i = 0; i < l; i++) {
+                var table1 = document.getElementById('xxx');
+                var rowrow =  document.createElement('tr');
+            
+                for (var j = 0; j < l; j++) {
+                    var y = Math.random();
+                    if (y < 0.5) y = 0;
+                    else y= 1;
+
+                    var cell1  =  document.createElement('td');
+                    var text1 = document.createTextNode(y);
+
+                    cell1.appendChild(text1);
+                    rowrow.appendChild(cell1);
+                }
+                table1.appendChild(rowrow);
+            }
+            setTimeout(randomBinary, 1);
+        }
+    </script>
 </body>
 </html>
