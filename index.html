@@ -7,12 +7,16 @@
     <title>@__test</title>
     <link rel="icon" type="image/x-icon" href="/hacked.png">
     <style>
+        td{
+            color: green;
+        }
         table{
             margin: auto;
             width: 100%;
             height: 100%;
         }
         body{
+            background-color: black;
             font-family: monospace;
             font-weight: bold;
             overflow: hidden;
@@ -40,7 +44,7 @@
 
                     var cell1  =  document.createElement('td');
                     var text1 = document.createTextNode(y);
-
+                    cell1.style.opacity = Math.random();
                     cell1.appendChild(text1);
                     rowrow.appendChild(cell1);
                 }
