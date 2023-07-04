@@ -11,10 +11,10 @@
     .blur {
       filter: blur(10px);
       user-select: none;
-      transition: filter 1s ease;
+      transition: filter 1.5s ease;
     }
 
-    .blur:hover {
+    .notblur {
       filter: blur(0);
       user-select: all;
     }
@@ -81,7 +81,7 @@
     </form>
     
       
-  <div class="blur flex flex-col items-center justify-center my-8">
+  <div id="myelement" class="blur flex flex-col items-center justify-center my-8">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden w-10/12 lg:w-7/12 mobile-margin">
       <div class="flex items-center justify-between bg-gray-200 px-4 py-2">
         <div class="flex items-center space-x-1">

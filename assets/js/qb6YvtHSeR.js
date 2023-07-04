@@ -8,7 +8,7 @@ var data = [
         "nama": "AKBAR"
     },
     {
-        "nim": "338816",
+        "nim": "123",
         "nama": "Staf Magang"
     }
 ];
@@ -20,6 +20,8 @@ $(document).ready(function() {
       if (nim == data[i].nim) {
         $("#namastaf").append(data[i].nama);
         $("#lock").remove();
+        var element = document.getElementById("myelement");
+        element.classList.add("notblur");
         return;
       }
     }
