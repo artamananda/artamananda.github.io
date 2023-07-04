@@ -1,16 +1,68 @@
 var data = [
-    {
-        "nim": "09021282025047",
-        "nama": "PUTRA AL FARIZI"
-    },
-    {
-        "nim": "06041282025047",
-        "nama": "Sayang"
-    },
-    {
-        "nim": "123",
-        "nama": "Staf Magang"
-    }
+  {
+     "nim":"06041282025047",
+     "nama":"Sayang"
+  },
+  {
+     "nim":"123",
+     "nama":"Staf Magang"
+  },
+  {
+     "nim":"08011182227049",
+     "nama":"TYARA HESTIYANI PUTRI"
+  },
+  {
+     "nim":"06131382227089",
+     "nama":"DZAKIRAH ZAINAL"
+  },
+  {
+     "nim":"06081382227085",
+     "nama":"ZAKIYAH HASANAH"
+  },
+  {
+     "nim":"06111282227045",
+     "nama":"REVINA SIHITE"
+  },
+  {
+     "nim":"08021182227016",
+     "nama":"TARA ZAGITA"
+  },
+  {
+     "nim":"01021282227052",
+     "nama":"PANCA WIJAYA"
+  },
+  {
+     "nim":"10011182227007",
+     "nama":"CHERIA TARA MELANI"
+  },
+  {
+     "nim":"05011282227085",
+     "nama":"ARYA ANUGRAH AGUNG"
+  },
+  {
+     "nim":"05011382227178",
+     "nama":"LOUIS PIETER NATHANIEL"
+  },
+  {
+     "nim":"02011182227065",
+     "nama":"MICKEY JULIANSYAH"
+  },
+  {
+     "nim":"05071282227051",
+     "nama":"BELLA NOVIOLA"
+  },
+  {
+     "nim":"07011182227120",
+     "nama":"YOLANDA WAHIDATUNISA"
+  },
+  {
+     "nim":"03051282126090",
+     "nama":"INDO MILANO AKHBAR"
+  },
+  {
+     "nim":"01011182227004",
+     "nama":"SANDI ANDARA"
+  }
 ];
 
 $(document).ready(function() {
