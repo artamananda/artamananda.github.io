@@ -4,8 +4,8 @@ var data = [
         "nama": "PUTRA AL FARIZI"
     },
     {
-        "nim": "0901282025049",
-        "nama": "AKBAR"
+        "nim": "06041282025047",
+        "nama": "Sayang"
     },
     {
         "nim": "123",
