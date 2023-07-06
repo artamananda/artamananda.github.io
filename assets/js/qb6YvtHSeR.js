@@ -90,6 +90,54 @@ var data = [
   {
    "nim": "10011382227182",
    "nama": "Mellza Anggreini"
+  },
+  {
+   "nim": "06051182227033",
+   "nama": "Balqis Aadila"
+  },
+  {
+   "nim": "05061282227029",
+   "nama": "Bundar Sela"
+  },
+  {
+   "nim": "05061282227031",
+   "nama": "Cemit Alamsa Dinanti"
+  },
+  {
+   "nim": "08021182227047",
+   "nama": "Heryadi"
+  },
+  {
+   "nim": "03041282227054",
+   "nama": "Haura Azra Napitupulasa"
+  },
+  {
+   "nim": "07021282227076",
+   "nama": "Lamsihar Prayoga Marbun"
+  },
+  {
+   "nim": "05011282227071",
+   "nama": "Luthfi Maulana"
+  },
+  {
+   "nim": "06051282227019",
+   "nama": "Latifah Febrianti"
+  },
+  {
+   "nim": "05101282227066",
+   "nama": "Muhammad Al-Muayyad"
+  },
+  {
+   "nim": "05101282126030",
+   "nama": "Silvana Enjelina Rajagukguk"
+  },
+  {
+   "nim": "01011182126029",
+   "nama": "Siti Solehah"
+  },
+  {
+   "nim": "05021382227093",
+   "nama": "Fredericka Jefanya Jire Walansendow"
   }
 ];
 
