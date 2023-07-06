@@ -1,13 +1,5 @@
 var data = [
   {
-     "nim":"06041282025047",
-     "nama":"Sayang"
-  },
-  {
-     "nim":"123",
-     "nama":"Staf Magang"
-  },
-  {
    "nim": "08011182227049",
    "nama": "TYARA HESTIYANI PUTRI"
   },
